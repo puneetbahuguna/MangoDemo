@@ -1,0 +1,27 @@
+<resources>
+    <string name="menu_customerlist">Lista de clientes</string>
+    <string name="menu_logout">Sair</string>
+    <string name="setting">Configuração</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="logo">logo</string>
+    <string name="loginusername">Insira nome de usuário</string>
+    <string name="loginpwd">Digite a senha</string>
+    <string name="loginbtn">Conecte-se</string>
+    <string name="autherror">O nome de usuário ou a senha estão incorretos</string>
+    <string name="enterpwd">Digite a senha</string>
+    <string name="pwderror">senha é incorreta</string>
+    <string name="alertitle">Confirmar ação</string>
+    <string name="alermsg">Deseja sair</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Está bem</string>
+    <string name="addacc">Adicionar Conta</string>
+    <string name="touchsetting">
+        <b>Ativar bloqueio de dispositivo</b>
+        \n
+        Isso solicitará a autenticação sempre que o aplicativo for trazido para primeiro plano.</string>
+    <string name="biotitle">Login biométrico para meu aplicativo</string>
+    <string name="biomsg">Faça login usando sua credencial biométrica</string>
+</resources>

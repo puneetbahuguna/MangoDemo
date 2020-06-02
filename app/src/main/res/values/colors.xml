@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00377b</color>
+    <color name="colorPrimaryDark">#00377b</color>
+    <color name="colorAccent">#00377b</color>
+    <color name="white">#FFF</color>
+    <color name="roundcorner">#00377b</color>
+    <color name="sideblue">#eaeef9</color>
+    <color name="cardbg">#E6E6E6</color>
+</resources>

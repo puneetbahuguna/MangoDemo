@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">Mango</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Puneet Bahuguna</string>
+    <string name="nav_header_subtitle" translatable="false">Consultant</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="menu_customerlist">Customer List</string>
+    <string name="menu_logout">Logout</string>
+    <string name="setting">Setting</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="logo">logo</string>
+    <string name="loginusername">Enter Username</string>
+    <string name="loginpwd">Enter Password</string>
+    <string name="loginbtn">Login</string>
+    <string name="ok">OK</string>
+    <string name="addacc">Add Account</string>
+    <string name="autherror">Either username or password is incorrect</string>
+    <string name="enterpwd">Please enter password</string>
+    <string name="pwderror">Password is incorrect</string>
+    <string name="alertitle">Confirm Action</string>
+    <string name="alermsg">Do you want to log out</string>
+    <string name="cancel">Cancel</string>
+    <string name="touchsetting">
+     <b>Enable Device lock</b>
+        \nThis will ask to authenticate every time when app brought to foreground.</string>
+    <string name="biotitle">Biometric login for my app</string>
+    <string name="biomsg">Log in using your biometric credential</string>
+</resources>

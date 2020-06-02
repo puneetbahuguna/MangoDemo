@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sideblue"
+        tools:context=".view.AddLoginAccount">
+    <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/languageSpinner"
+            android:padding="20dp"
+            android:layout_width="120dp"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content"/>
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="20dp"
+                    android:background="@drawable/roundedcorner"
+    >
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/loginicon"
+                   android:layout_centerHorizontal="true"
+                   android:contentDescription="@string/logo"
+                   android:src="@drawable/tecnicum"
+        />
+
+        <RelativeLayout android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/loginicon"
+                        android:layout_centerInParent="true"
+        >
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/userSpinner"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/loggedinpassword"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:inputType="textPassword"
+                    android:hint="@string/loginpwd"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@id/userSpinner"
+            />
+            <com.google.android.material.button.MaterialButton
+                    android:id="@+id/exstlogin"
+                    android:layout_below="@id/loggedinpassword"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:text="@string/loginbtn"
+                    android:visibility="gone"
+                    android:background="@drawable/roundedcorner"
+                    android:layout_height="wrap_content"/>
+            <LinearLayout
+                    android:id="@+id/btnlayout"
+                    android:layout_below="@+id/userSpinner"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <com.google.android.material.button.MaterialButton
+                        android:id="@+id/ok"
+                        android:layout_width="wrap_content"
+                        android:text="@string/ok"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundedcorner"
+                        android:layout_height="wrap_content"/>
+                <View android:layout_width="20dp"
+                      android:layout_height="0dp"/>
+                <com.google.android.material.button.MaterialButton
+                        android:id="@+id/addacc"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:text="@string/addacc"
+                        android:background="@drawable/roundedcorner"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
